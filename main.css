@@ -1,0 +1,47 @@
+body {
+  background: url("assets/images/outside-hamock1.jpg") no-repeat;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.nav-list {
+  color: #fff;
+  font-size: 1.4em;
+  padding: 0;
+  margin: 2%;
+}
+.nav-list a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+}
+.nav-dropdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0;
+  margin-top: 5%;
+}
+/* CSS code to prevent the nav buttons from shifting */
+.nav-buttons {
+  flex: 1 1 0;
+}
+
+.nav-buttons a:hover {
+  color: orange;
+}
+
+ul.amenities-dropdown {
+  padding: 4%;
+  font-size: 1em;
+}
